@@ -1,0 +1,51 @@
+{
+	"name": "icot-vsc-extension-pack",
+	"displayName": "iCoT Extension Pack",
+	"publisher": "iCoT",
+	"author": {
+		"name": "iCoT",
+		"email": "icot.site@gmail.com"
+	},
+	"scripts": {
+		"publish": "vsce package && vsce publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/icotd/extension-pack"
+	},
+	"icon": "icon.png",
+	"description": "Extension pack for development",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.91.1"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+		"extensionPack": [
+		  "steoates.autoimport",
+		  "JannisX11.batch-rename-extension",
+		  "oven.bun-vscode",
+		  "naumovs.color-highlight",
+		  "mikestead.dotenv",
+		  "manuelgil.drizzle-orm-snippets",
+		  "dbaeumer.vscode-eslint",
+		  "shinnn.file-tree-generator",
+		  "github.copilot",
+		  "github.copilot-chat",
+		  "chanzhaoyu.hono-snippets",
+		  "lokalise.i18n-ally",
+		  "visualstudioexptteam.vscodeintellicode",
+		  "zainchen.json",
+		  "esbenp.prettier-vscode",
+		  "mechatroner.rainbow-csv",
+		  "codecola.codecolac-replace",
+		  "yy0931.sqlite3-editor",
+		  "chanzhaoyu.svelte5-snippets",
+		  "svelte.svelte-vscode",
+		  "alexcvzz.svelte-extract",
+		  "bradlc.vscode-tailwindcss",
+		  "rangav.vscode-thunder-client",
+		  "wayou.vscode-todo-highlight"
+		]
+}
