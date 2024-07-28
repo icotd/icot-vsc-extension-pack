@@ -1,10 +1,10 @@
 {
-	"name": "icot-vsc-extension-pack",
-	"displayName": "iCoT Extension Pack",
-	"publisher": "iCoT",
+	"name": "icot-vsce",
+	"displayName": "iCoT VSCE Pack",
+	"publisher": "icot-vsce",
 	"license": "MIT",
 	"author": {
-		"name": "iCoT",
+		"name": "iCot",
 		"email": "icot.site@gmail.com"
 	},
 	"scripts": {
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/icotd/extension-pack"
+		"url": "https://github.com/icotd/vsce"
 	},
 	"icon": "icon.png",
 	"description": "Extension pack for development",
@@ -41,7 +41,7 @@
 		  "esbenp.prettier-vscode",
 		  "mechatroner.rainbow-csv",
 		  "codecola.codecolac-replace",
-		  "yy0931.sqlite3-editor",
+		  "yy0931.vscode-sqlite3-editor",
 		  "chanzhaoyu.svelte5-snippets",
 		  "svelte.svelte-vscode",
 		  "alexcvzz.svelte-extract",
