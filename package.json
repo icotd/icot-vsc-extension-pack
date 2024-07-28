@@ -2,6 +2,7 @@
 	"name": "icot-vsc-extension-pack",
 	"displayName": "iCoT Extension Pack",
 	"publisher": "iCoT",
+	"license": "MIT",
 	"author": {
 		"name": "iCoT",
 		"email": "icot.site@gmail.com"
